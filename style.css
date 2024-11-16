@@ -1,0 +1,149 @@
+.container{
+    max-width: 80rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__link{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+.menu__item{
+    display: flex;
+    list-style-type: none;
+    
+}
+.email{
+    text-decoration: none;
+    color: black;
+}
+.email_person{
+    display: flex;
+    align-items: center;
+    margin: 0%;
+}
+.icon_email{
+width: 1.5rem; 
+}
+.icon{
+    width: 3rem;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+.main_left{
+    
+    flex-basis: 50%;
+}
+.main_right{
+   
+    flex-basis: 50%;
+}
+.button{
+    width: 4rem;
+    background-color: #0050c8;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+}
+.main_rightt{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.link_mywork{
+    padding-left: 1rem;
+    color: black;
+}
+.person{
+    width: 20rem;
+}
+.main__bottom{
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-between;
+}
+.main__bottmm{
+   text-align: center;
+   padding-top: 1.5rem;
+}
+.main-text{
+    line-height: 2rem;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+.texts{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.lorems{
+    display: flex;
+    justify-content: space-evenly;
+}
+.follow{
+    display: flex;
+    align-items: center;
+}
+.iconss{
+    margin: 2rem;
+}
+@media only screen and (max-width:500px){
+    .container {
+        max-width: 400px;
+    }
+    .icon_email{
+       display: none;
+    }
+    .email{
+        display: none;
+    }
+    .menu__item{
+        display: none;
+    }
+    .menu-icons{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .menu__header{
+        border-bottom: 1px solid grey;
+    }
+    .nav{
+        flex-wrap: wrap-reverse;
+    }
+    .main_rightt{
+        display: flex;
+        align-items: center;
+    }
+    .button{
+        width: 5rem;
+    }
+    .link_mywork{
+        width: 5rem;
+    }
+    .img-main{
+        display: none;
+    }
+    .main__bottmm{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .main__bottom{
+        text-align: center;
+    }
+}
